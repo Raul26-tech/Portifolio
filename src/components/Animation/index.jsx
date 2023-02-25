@@ -20,7 +20,7 @@ export default function Animation() {
                         nextStringDelay: 200,
                     }}
                 >
-                    <span className="text-theme-blue">
+                    <span className="text-theme-blue text-lg">
                         Olá, seja bem-vindo(a) ao meu perfil, eu sou
                     </span>
                     <br />
