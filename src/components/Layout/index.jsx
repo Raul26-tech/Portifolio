@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Header';
 import Animation from '../Animation';
+import About from '../About';
 
 export default function Layout() {
     return (
@@ -17,7 +18,9 @@ export default function Layout() {
                         alt=""
                     />
                 </div>
-                <div className="bg-red-300 mt-3">Proxima sessão</div>
+                <div className="mt-[2rem] p-3">
+                    <About />
+                </div>
             </div>
         </>
     );
