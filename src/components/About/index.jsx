@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
     return (
-        <section className="w-full flex justify-center p-6 md:p-20">
+        <section className="w-full flex justify-center p-6 md:p-20 mt-8 md:mt-[5rem]">
             <div className="w-[30rem] p-3 hidden md:block">
                 <img
                     src="../src/assets/animation.png"
@@ -13,8 +13,10 @@ export default function About() {
                 <span className="text-theme-blue text-base">
                     Um pouco sobre mim
                 </span>
-                <h2 className="text-slate-600 text-4xl font-bold">Sobre</h2>
-                <p>
+                <h2 className="text-slate-600 text-4xl font-bold mt-3">
+                    Sobre
+                </h2>
+                <p className="mt-3 text-slate-500">
                     Sou um jovem desenvolvedor que entrei nesse mundo aos 17
                     anos. Sempre fui muito curioso e gosto de entender como as
                     coisas funcionam, esse extinto se aflorou ainda mais no ano
