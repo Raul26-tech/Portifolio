@@ -7,10 +7,10 @@ export default function Layout() {
         <>
             <div className="w-full h-screen flex flex-col overflow-y-auto">
                 <Header />
-                <section className="w-full h-[15rem] flex flex-col bg-gradient-to-r from-gray-500 to-theme-blue-dark-gray-150">
+                <section className="w-full h-[20rem] md:h-[15rem] flex flex-col bg-gradient-to-r from-gray-500 to-theme-blue-dark-gray-150">
                     <Animation />
                 </section>
-                <div className="bg-gradient-to-r from-gray-500 to-theme-blue-dark-gray-150">
+                <div className="bg-gradient-to-r from-gray-500 to-theme-blue-dark-gray-150 ">
                     <img
                         className="w-full"
                         src="../src/assets/footerSection.png"
