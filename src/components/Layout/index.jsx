@@ -12,7 +12,7 @@ export default function Layout() {
                 <section className="w-full h-[30rem] md:h-[15rem] flex flex-col bg-gradient-to-r from-gray-500 to-theme-blue-dark-gray-150">
                     <Animation />
                 </section>
-                <div className="bg-gradient-to-r from-gray-500 to-theme-blue-dark-gray-150 ">
+                <div className="bg-gradient-to-r from-gray-500 to-theme-blue-dark-gray-150">
                     <img
                         className="w-full"
                         src="../src/assets/footerSection.png"
