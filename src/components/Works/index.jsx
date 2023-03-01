@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
+import Experencies from '../Experiences';
 
 export default function Works() {
-    const [jobs, setJobs] = useState(false);
-    const [secondJob, setSecondJob] = useState(false);
-
     return (
         <>
             <div className="w-full flex p-6 md:p-20 mt-12 md:mt-[5rem]">
@@ -15,56 +13,20 @@ export default function Works() {
                         Lugares onde trabalhei
                     </h2>
                     <div className="w-full md:flex justify-center items-start mt-10 p-3 rounded-md shadow-md bg-white">
-                        <div className="w-full flex flex-col p-3 h-auto">
-                            <button
-                                className="w-full h-[3rem] justify-center items-center p-3 text-theme-blue border-l-[#2596FF] hover:bg-theme-blue hover:text-white hover:border-l-theme-blue-dark-50 transition duration-150 border-2"
-                                onClick={() => {
-                                    setJobs((prevState) => !prevState);
-                                }}
-                            >
-                                Asisto Tecnologia
-                            </button>
-                            {jobs && (
-                                <div className="w-full flex justify-center">
-                                    <div className="m-6 p-3 text-slate-600 font-normal">
-                                        <p>
-                                            Lorem ipsum dolor sit amet
-                                            consectetur, adipisicing elit.
-                                            Aperiam minima eos eum error saepe
-                                            est pariatur at et incidunt deserunt
-                                            dolorum, iusto magnam. In numquam
-                                            porro veritatis. Ad, accusamus
-                                            voluptatem.
-                                        </p>
-                                    </div>
-                                </div>
-                            )}
-                        </div>
-                        <div className="w-full flex flex-col p-3 h-auto">
-                            <button
-                                className="w-full h-[3rem] justify-center items-center p-3 text-theme-blue border-l-[#2596FF] hover:bg-theme-blue hover:text-white hover:border-l-theme-blue-dark-50 transition duration-150 border-2"
-                                onClick={() => {
-                                    setSecondJob((prevState) => !prevState);
-                                }}
-                            >
-                                Drean Tecnology
-                            </button>
-                            {secondJob && (
-                                <div className="w-full flex justify-center">
-                                    <div className="m-6 p-3 text-slate-600 font-normal">
-                                        <p>
-                                            Lorem ipsum dolor sit amet
-                                            consectetur, adipisicing elit.
-                                            Aperiam minima eos eum error saepe
-                                            est pariatur at et incidunt deserunt
-                                            dolorum, iusto magnam. In numquam
-                                            porro veritatis. Ad, accusamus
-                                            voluptatem.
-                                        </p>
-                                    </div>
-                                </div>
-                            )}
-                        </div>
+                        <Experencies textButton="Asisto tecnologia">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Voluptate, illum saepe? Natus soluta a,
+                            repellendus asperiores eveniet, iste, culpa quae
+                            reiciendis laborum distinctio explicabo dolore sed
+                            quam magnam facilis iusto?
+                        </Experencies>
+                        <Experencies textButton="Drean tecnology">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Voluptate, illum saepe? Natus soluta a,
+                            repellendus asperiores eveniet, iste, culpa quae
+                            reiciendis laborum distinctio explicabo dolore sed
+                            quam magnam facilis iusto?
+                        </Experencies>
                     </div>
                 </div>
             </div>
