@@ -3,6 +3,7 @@ import Header from '../Header';
 import Animation from '../Animation';
 import About from '../About';
 import Works from '../Works';
+import Tecnologies from '../Tecnologies';
 
 export default function Layout() {
     return (
@@ -21,6 +22,7 @@ export default function Layout() {
                 </div>
                 <About />
                 <Works />
+                <Tecnologies />
             </div>
         </>
     );

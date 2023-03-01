@@ -1,17 +1,21 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Experencies from '../Experiences';
 
 export default function Works() {
     return (
         <>
             <div className="w-full flex p-6 md:p-20 mt-12 md:mt-[5rem]">
-                <div className="w-full  md:w-[80rem] p-3">
-                    <span className="text-theme-blue text-base">
-                        Minhas experiênciais
-                    </span>
-                    <h2 className="text-slate-600 text-4xl font-bold mt-3">
+                <div className="w-full md:w-[80rem] p-3">
+                    <div className="flex justify-center items-center md:justify-start">
+                        <span className="text-theme-blue text-base">
+                            Minhas experiênciais
+                        </span>
+                    </div>
+
+                    <h2 className="text-slate-600 text-center md:text-left text-4xl font-bold mt-3">
                         Lugares onde trabalhei
                     </h2>
+
                     <div className="w-full md:flex justify-center items-start mt-10 p-3 rounded-md shadow-md bg-white">
                         <Experencies textButton="Asisto tecnologia">
                             Lorem ipsum dolor sit amet consectetur adipisicing
