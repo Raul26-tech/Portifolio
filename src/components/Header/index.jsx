@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { HiMenu, HiX, HiMoon } from 'react-icons/hi';
 import { BiCode, BiCodeAlt } from 'react-icons/bi';
-import Fade from 'react-reveal/Fade';
 
 export default function Header() {
     const [showMenuMobile, setShowMenuMobile] = useState(false);
@@ -58,37 +57,35 @@ export default function Header() {
             </div>
             {showMenuMobile && (
                 <>
-                    <Fade left>
-                        <div className="w-[18rem] z-50 h-full p-8 shadow-lg md:shadow-2xl bg-gradient-to-r from-gray-500 to-theme-blue-dark-gray-150 absolute inset-0 md:hidden">
-                            <div className="w-auto flex justify-end">
-                                <button
-                                    onClick={handleShowMenu}
-                                    className="text-white"
-                                >
-                                    <HiX size={24} />
-                                </button>
-                            </div>
-                            <div className="w-full h-[30rem] flex mt-6">
-                                <ul className="list-none flex flex-col justify-start 8items-start p-4">
-                                    <li className="font-roboto p-4 transition duration-100 text-white hover:text-blue-400 hover:border-b-2 hover:border-theme-blue-hover">
-                                        Home
-                                    </li>
-                                    <li className="font-roboto p-4 transition duration-100 text-white hover:text-blue-400 hover:border-b-2 hover:border-theme-blue-hover">
-                                        Sobre
-                                    </li>
-                                    <li className="font-roboto p-4 transition duration-100 text-white hover:text-blue-400 hover:border-b-2 hover:border-theme-blue-hover">
-                                        Experiências
-                                    </li>
-                                    <li className="font-roboto p-4 transition duration-100 text-white hover:text-blue-400 hover:border-b-2 hover:border-theme-blue-hover">
-                                        Projetos
-                                    </li>
-                                    <li className="font-roboto p-4 transition duration-100 text-white hover:text-blue-400 hover:border-b-2 hover:border-theme-blue-hover">
-                                        Contato
-                                    </li>
-                                </ul>
-                            </div>
+                    <div className="w-[18rem] z-50 h-full p-8 shadow-lg md:shadow-2xl bg-gradient-to-r from-gray-500 to-theme-blue-dark-gray-150 absolute inset-0 md:hidden">
+                        <div className="w-auto flex justify-end">
+                            <button
+                                onClick={handleShowMenu}
+                                className="text-white"
+                            >
+                                <HiX size={24} />
+                            </button>
                         </div>
-                    </Fade>
+                        <div className="w-full h-[30rem] flex mt-6">
+                            <ul className="list-none flex flex-col justify-start 8items-start p-4">
+                                <li className="font-roboto p-4 transition duration-100 text-white hover:text-blue-400 hover:border-b-2 hover:border-theme-blue-hover">
+                                    Home
+                                </li>
+                                <li className="font-roboto p-4 transition duration-100 text-white hover:text-blue-400 hover:border-b-2 hover:border-theme-blue-hover">
+                                    Sobre
+                                </li>
+                                <li className="font-roboto p-4 transition duration-100 text-white hover:text-blue-400 hover:border-b-2 hover:border-theme-blue-hover">
+                                    Experiências
+                                </li>
+                                <li className="font-roboto p-4 transition duration-100 text-white hover:text-blue-400 hover:border-b-2 hover:border-theme-blue-hover">
+                                    Projetos
+                                </li>
+                                <li className="font-roboto p-4 transition duration-100 text-white hover:text-blue-400 hover:border-b-2 hover:border-theme-blue-hover">
+                                    Contato
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </>
             )}
         </>

@@ -4,6 +4,7 @@ import Animation from '../Animation';
 import About from '../About';
 import Works from '../Works';
 import Tecnologies from '../Tecnologies';
+import Projects from '../Projects';
 
 export default function Layout() {
     return (
@@ -23,6 +24,7 @@ export default function Layout() {
                 <About />
                 <Works />
                 <Tecnologies />
+                <Projects />
             </div>
         </>
     );
