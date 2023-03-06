@@ -11,7 +11,7 @@ export default function Header() {
 
     return (
         <>
-            <div className="w-full h-[5rem] z-10 flex items-center justify-between relative p-12 bg-gradient-to-r from-gray-500 to-theme-blue-dark-gray-150">
+            <div className="w-full h-[5rem] z-10 flex items-center justify-between relative p-12 bg-gradient-to-r from-gray-800 to-theme-blue-dark-gray-100">
                 <div className="w-full flex justify-between items-center md:hidden">
                     <button
                         className="w-[5rem] md:hidden text-white"
@@ -57,7 +57,7 @@ export default function Header() {
             </div>
             {showMenuMobile && (
                 <>
-                    <div className="w-[18rem] z-50 h-full p-8 shadow-lg md:shadow-2xl bg-gradient-to-r from-gray-500 to-theme-blue-dark-gray-150 absolute inset-0 md:hidden">
+                    <div className="w-[18rem] z-50 h-full p-8 shadow-lg md:shadow-2xl bg-gradient-to-r from-gray-800 to-theme-blue-dark-gray-100 absolute inset-0 md:hidden">
                         <div className="w-auto flex justify-end">
                             <button
                                 onClick={handleShowMenu}
