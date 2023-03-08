@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 export default function Projects() {
     return (
@@ -39,10 +38,6 @@ export default function Projects() {
                                         react-hook-form, Typescript, Axios, Live
                                         Server
                                     </span>
-                                    {/* <span className="text-theme-blue text-base mt-2">
-                                        Url:{' '}
-                                      
-                                    </span> */}
                                 </div>
                             </div>
                         </div>
@@ -86,6 +81,13 @@ export default function Projects() {
                                 </span>
                             </div>
                         </div>
+                    </div>
+                    <div className="w-full flex justify-center items-center p-6">
+                        <button className="bg-white text-theme-blue text-sm p-4 border-2 border-theme-blue rounded-md hover:text-white hover:bg-theme-blue-hover hover:duration-200">
+                            <a href="https://github.com/Raul26-tech">
+                                Saiba mais
+                            </a>
+                        </button>
                     </div>
                 </div>
             </div>
