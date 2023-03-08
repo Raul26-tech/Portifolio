@@ -5,6 +5,7 @@ import About from '../About';
 import Works from '../Works';
 import Tecnologies from '../Tecnologies';
 import Projects from '../Projects';
+import Footer from '../Footer';
 
 export default function Layout() {
     return (
@@ -25,6 +26,7 @@ export default function Layout() {
                 <Works />
                 <Tecnologies />
                 <Projects />
+                <Footer />
             </div>
         </>
     );
