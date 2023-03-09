@@ -18,7 +18,7 @@ export default function Projects() {
                             <div className="w-full h-20 flex justify-center items-center text-theme-blue text-base">
                                 <h2 className="text-2xl font-bold">As-money</h2>
                             </div>
-                            <div className="w-full flex h-[20rem] flex-col p-3 border-[1px] border-l-theme-blue rounded-md">
+                            <div className="w-full flex md:h-[20rem] flex-col p-3 border-[1px] border-l-theme-blue rounded-md">
                                 <p className="text-slate-600 text-sm">
                                     O As-money é um projeto que faz uma pequena
                                     gerencia de finanças, onde nós podemos
