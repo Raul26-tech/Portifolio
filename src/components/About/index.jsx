@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
     return (
         <>
-            <section className="w-full flex justify-center p-6 md:p-20 mt-8 md:mt-[5rem]">
+            <section className="w-full flex justify-center p-6 md:p-20 mt-8 md:mt-[3rem]">
                 <div className="w-[30rem] p-3 hidden md:block">
                     <img
                         src="../src/assets/animation.png"

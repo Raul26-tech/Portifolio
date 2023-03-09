@@ -4,7 +4,7 @@ import Experencies from '../Experiences';
 export default function Works() {
     return (
         <>
-            <div className="w-full flex p-6 md:p-20 mt-12 md:mt-[5rem]">
+            <div className="w-full flex p-6 md:p-20 mt-12 md:mt-[3rem]">
                 <div className="w-full md:w-[80rem] p-3">
                     <div className="flex justify-center items-center md:justify-start">
                         <span className="text-theme-blue text-base">
