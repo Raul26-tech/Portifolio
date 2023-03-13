@@ -12,7 +12,7 @@ import { DiHtml5, DiCss3, DiReact, DiNodejsSmall } from 'react-icons/di';
 export default function Tecnologies() {
     return (
         <>
-            <div className="w-full flex p-6 md:p-20 mt-12 md:mt-[5rem]">
+            <div className="w-full flex p-6 md:p-20">
                 <div className="w-full p-3">
                     <div className="flex justify-center items-center md:justify-start">
                         <span className="text-theme-blue text-base">
