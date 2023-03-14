@@ -1,7 +1,7 @@
 {
     "name": "portifolio",
     "homepage": "https://github.com/Raul26-tech/Portifolio.git",
-    "private": false,
+    "private": true,
     "version": "0.0.0",
     "type": "module",
     "scripts": {
